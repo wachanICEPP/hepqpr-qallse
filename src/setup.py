@@ -41,12 +41,12 @@ setuptools.setup(
         'Operating System :: OS Independent'
     ],
     install_requires=[
-        'numpy>=1.14.0,<1.16.0',
-        'pandas>=0.23,<0.24',
+        'numpy==1.22.2',
+        'pandas==1.4.1',
         'trackml',
-        'dwave-qbsolv==0.2.10',
-        'dwave-neal==0.4.5',
-        'click==7.0',
+        'dwave-qbsolv==0.3.4',
+        'dwave-neal==0.5.9',
+        'click==7.1.2',
         'jsonschema<3.0.0',
         'plotly>=3.4,<3.5'
     ],
